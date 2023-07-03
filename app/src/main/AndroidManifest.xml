@@ -13,12 +13,23 @@
         android:theme="@style/Theme.SpaceWallet"
         tools:targetApi="31">
         <activity
+            android:name=".FindDateActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".SearchActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".InsertActivity"
+            android:exported="true"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
     </application>
